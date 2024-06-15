@@ -44,9 +44,10 @@
             // 
             this.remove.AutoSize = true;
             this.remove.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.remove.Location = new System.Drawing.Point(10, 10);
+            this.remove.Location = new System.Drawing.Point(13, 12);
+            this.remove.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.remove.Name = "remove";
-            this.remove.Size = new System.Drawing.Size(219, 25);
+            this.remove.Size = new System.Drawing.Size(273, 31);
             this.remove.TabIndex = 0;
             this.remove.Text = "Remove Characters";
             // 
@@ -55,16 +56,19 @@
             this.idRemove.FormattingEnabled = true;
             this.idRemove.Items.AddRange(new object[] {
             "Select a character..."});
-            this.idRemove.Location = new System.Drawing.Point(15, 40);
+            this.idRemove.Location = new System.Drawing.Point(20, 49);
+            this.idRemove.Margin = new System.Windows.Forms.Padding(4);
             this.idRemove.Name = "idRemove";
-            this.idRemove.Size = new System.Drawing.Size(121, 21);
+            this.idRemove.Size = new System.Drawing.Size(160, 24);
             this.idRemove.TabIndex = 1;
+            this.idRemove.Enter += new System.EventHandler(this.changeDefaultButton);
             // 
             // doRemove
             // 
-            this.doRemove.Location = new System.Drawing.Point(15, 85);
+            this.doRemove.Location = new System.Drawing.Point(20, 105);
+            this.doRemove.Margin = new System.Windows.Forms.Padding(4);
             this.doRemove.Name = "doRemove";
-            this.doRemove.Size = new System.Drawing.Size(75, 23);
+            this.doRemove.Size = new System.Drawing.Size(100, 28);
             this.doRemove.TabIndex = 2;
             this.doRemove.Text = "Remove character";
             this.doRemove.UseVisualStyleBackColor = true;
@@ -74,25 +78,29 @@
             // 
             this.add.AutoSize = true;
             this.add.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.add.Location = new System.Drawing.Point(15, 170);
+            this.add.Location = new System.Drawing.Point(20, 209);
+            this.add.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(171, 25);
+            this.add.Size = new System.Drawing.Size(211, 31);
             this.add.TabIndex = 3;
             this.add.Text = "Add characters";
             // 
             // value
             // 
-            this.value.Location = new System.Drawing.Point(15, 230);
+            this.value.Location = new System.Drawing.Point(20, 283);
+            this.value.Margin = new System.Windows.Forms.Padding(4);
             this.value.Name = "value";
-            this.value.Size = new System.Drawing.Size(100, 20);
+            this.value.Size = new System.Drawing.Size(132, 22);
             this.value.TabIndex = 5;
             this.value.Text = "Value...";
+            this.value.Enter += new System.EventHandler(this.changeDefaultButton);
             // 
             // doAdd
             // 
-            this.doAdd.Location = new System.Drawing.Point(15, 255);
+            this.doAdd.Location = new System.Drawing.Point(20, 314);
+            this.doAdd.Margin = new System.Windows.Forms.Padding(4);
             this.doAdd.Name = "doAdd";
-            this.doAdd.Size = new System.Drawing.Size(75, 23);
+            this.doAdd.Size = new System.Drawing.Size(100, 28);
             this.doAdd.TabIndex = 6;
             this.doAdd.Text = "Add";
             this.doAdd.UseVisualStyleBackColor = true;
@@ -101,37 +109,43 @@
             // cent
             // 
             this.cent.AutoSize = true;
-            this.cent.Location = new System.Drawing.Point(121, 233);
+            this.cent.Location = new System.Drawing.Point(161, 287);
+            this.cent.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.cent.Name = "cent";
-            this.cent.Size = new System.Drawing.Size(13, 13);
+            this.cent.Size = new System.Drawing.Size(16, 17);
             this.cent.TabIndex = 7;
             this.cent.Text = "¢";
             // 
             // idAdd
             // 
-            this.idAdd.Location = new System.Drawing.Point(15, 200);
+            this.idAdd.Location = new System.Drawing.Point(20, 246);
+            this.idAdd.Margin = new System.Windows.Forms.Padding(4);
             this.idAdd.Name = "idAdd";
-            this.idAdd.Size = new System.Drawing.Size(121, 20);
+            this.idAdd.Size = new System.Drawing.Size(160, 22);
             this.idAdd.TabIndex = 8;
             this.idAdd.Text = "Select a character...";
+            this.idAdd.Enter += new System.EventHandler(this.changeDefaultButton);
             // 
             // showSpecial
             // 
             this.showSpecial.ActiveLinkColor = System.Drawing.Color.Blue;
             this.showSpecial.AutoSize = true;
-            this.showSpecial.Location = new System.Drawing.Point(145, 204);
+            this.showSpecial.Location = new System.Drawing.Point(193, 251);
+            this.showSpecial.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.showSpecial.Name = "showSpecial";
-            this.showSpecial.Size = new System.Drawing.Size(49, 13);
+            this.showSpecial.Size = new System.Drawing.Size(65, 17);
             this.showSpecial.TabIndex = 9;
             this.showSpecial.TabStop = true;
             this.showSpecial.Text = "Charmap";
             this.showSpecial.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.charmap);
+            this.showSpecial.Enter += new System.EventHandler(this.changeDefaultButton);
             // 
             // shutDown
             // 
-            this.shutDown.Location = new System.Drawing.Point(70, 285);
+            this.shutDown.Location = new System.Drawing.Point(93, 351);
+            this.shutDown.Margin = new System.Windows.Forms.Padding(4);
             this.shutDown.Name = "shutDown";
-            this.shutDown.Size = new System.Drawing.Size(100, 25);
+            this.shutDown.Size = new System.Drawing.Size(133, 31);
             this.shutDown.TabIndex = 10;
             this.shutDown.Text = "Close";
             this.shutDown.UseVisualStyleBackColor = true;
@@ -139,10 +153,10 @@
             // 
             // Character
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(234, 324);
+            this.ClientSize = new System.Drawing.Size(312, 399);
             this.Controls.Add(this.shutDown);
             this.Controls.Add(this.showSpecial);
             this.Controls.Add(this.idAdd);
@@ -153,6 +167,7 @@
             this.Controls.Add(this.doRemove);
             this.Controls.Add(this.idRemove);
             this.Controls.Add(this.remove);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Character";
             this.Text = "Special Characters";
             this.ResumeLayout(false);

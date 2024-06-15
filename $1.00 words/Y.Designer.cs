@@ -40,9 +40,10 @@
             // details
             // 
             this.details.AutoSize = true;
-            this.details.Location = new System.Drawing.Point(15, 15);
+            this.details.Location = new System.Drawing.Point(20, 18);
+            this.details.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.details.Name = "details";
-            this.details.Size = new System.Drawing.Size(74, 13);
+            this.details.Size = new System.Drawing.Size(99, 17);
             this.details.TabIndex = 0;
             this.details.Text = "Y settings are:";
             // 
@@ -51,18 +52,21 @@
             this.holder.Controls.Add(this.sometimesVowel);
             this.holder.Controls.Add(this.neverVowel);
             this.holder.Controls.Add(this.alwaysVowel);
-            this.holder.Location = new System.Drawing.Point(18, 32);
+            this.holder.Location = new System.Drawing.Point(24, 39);
+            this.holder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.holder.Name = "holder";
-            this.holder.Size = new System.Drawing.Size(269, 105);
+            this.holder.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.holder.Size = new System.Drawing.Size(359, 129);
             this.holder.TabIndex = 1;
             this.holder.TabStop = false;
             // 
             // sometimesVowel
             // 
             this.sometimesVowel.AutoSize = true;
-            this.sometimesVowel.Location = new System.Drawing.Point(5, 70);
+            this.sometimesVowel.Location = new System.Drawing.Point(7, 86);
+            this.sometimesVowel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sometimesVowel.Name = "sometimesVowel";
-            this.sometimesVowel.Size = new System.Drawing.Size(248, 17);
+            this.sometimesVowel.Size = new System.Drawing.Size(327, 21);
             this.sometimesVowel.TabIndex = 2;
             this.sometimesVowel.TabStop = true;
             this.sometimesVowel.Text = "Y is only a vowel if it is not at the start of a word";
@@ -71,9 +75,10 @@
             // neverVowel
             // 
             this.neverVowel.AutoSize = true;
-            this.neverVowel.Location = new System.Drawing.Point(5, 45);
+            this.neverVowel.Location = new System.Drawing.Point(7, 55);
+            this.neverVowel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.neverVowel.Name = "neverVowel";
-            this.neverVowel.Size = new System.Drawing.Size(112, 17);
+            this.neverVowel.Size = new System.Drawing.Size(143, 21);
             this.neverVowel.TabIndex = 1;
             this.neverVowel.TabStop = true;
             this.neverVowel.Text = "Y is never a vowel";
@@ -82,9 +87,10 @@
             // alwaysVowel
             // 
             this.alwaysVowel.AutoSize = true;
-            this.alwaysVowel.Location = new System.Drawing.Point(5, 20);
+            this.alwaysVowel.Location = new System.Drawing.Point(7, 25);
+            this.alwaysVowel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.alwaysVowel.Name = "alwaysVowel";
-            this.alwaysVowel.Size = new System.Drawing.Size(117, 17);
+            this.alwaysVowel.Size = new System.Drawing.Size(149, 21);
             this.alwaysVowel.TabIndex = 0;
             this.alwaysVowel.TabStop = true;
             this.alwaysVowel.Text = "Y is always a vowel";
@@ -92,9 +98,10 @@
             // 
             // close
             // 
-            this.close.Location = new System.Drawing.Point(145, 135);
+            this.close.Location = new System.Drawing.Point(193, 166);
+            this.close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(75, 25);
+            this.close.Size = new System.Drawing.Size(100, 31);
             this.close.TabIndex = 2;
             this.close.Text = "OK";
             this.close.UseVisualStyleBackColor = true;
@@ -102,13 +109,15 @@
             // 
             // Y
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AcceptButton = this.close;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(393, 169);
+            this.ClientSize = new System.Drawing.Size(524, 208);
             this.ControlBox = false;
             this.Controls.Add(this.close);
             this.Controls.Add(this.holder);
             this.Controls.Add(this.details);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Y";
             this.Text = "Y";
             this.holder.ResumeLayout(false);

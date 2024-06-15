@@ -45,17 +45,16 @@ namespace _1._00_words
         }
         public void calculate()
         {
-            int sum = 0;
-            string text = wordBox.Text.ToLower();
-            for(int index = 0; index < text.Length; index++)
+            float sum = 0;
+            bool persist = true;
+            foreach(char character in wordBox.Text.ToLower())
             {
-                char character = text[index];
                 try
                 {
                     checked
                     {
-                        if (character != 'y' || (neg != YType.sometimes || text[index - 1] != ' '))
                         //in case Ys are only vowels when not at the beginning of a word
+                        if (character != 'y' || neg == YType.always || !persist)
                         {
                             sum += letters[character];
                         }
@@ -64,21 +63,18 @@ namespace _1._00_words
                             sum -= letters[character];
                         }
                     }
+                    persist = char.IsWhiteSpace(character);
                 }
-                catch (IndexOutOfRangeException error)
+                catch (NullReferenceException)
                 {
-                    sum += (character != 'y' || neg != YType.sometimes ? 1 : -1) * letters[character];
+                    //Do nothing...
                 }
-                catch (NullReferenceException error)
-                {
-                }
-                catch (OverflowException error)
+                catch (OverflowException)
                 {
                     MessageBox.Show("Error: too large a value.  ", "Warning");
                 }
             }
-            value.Text = "Your word or phrase has a value of $" + (((float)sum) / 100).ToString() + ".  "
-                ;
+            value.Text = "Your word or phrase has a value of $" + (sum / 100).ToString() + ".  ";
         }
         private void showCharacters(object sender, EventArgs e)
         {
@@ -87,11 +83,11 @@ namespace _1._00_words
 
         private void askVowels(object sender, EventArgs e)
         {
-            if ((MessageBox.Show("Do you want vowels to be negative (default)?",
-                "Vowels?", MessageBoxButtons.YesNo) == DialogResult.No))
+            ySettings.Enabled = 
+                (MessageBox.Show("Do you want vowels to be negative (default)?", "Vowels?", MessageBoxButtons.YesNo) == DialogResult.No);
+            if (ySettings.Enabled)
             {
-                ySettings.Enabled = false;
-                if (letters['a'] > 0)
+                if (letters['a'] < 0)
                 {
                     letters['a'] *= -1;
                     letters['e'] *= -1;
@@ -103,8 +99,7 @@ namespace _1._00_words
             }
             else
             {
-                ySettings.Enabled = true;
-                if (letters['a'] < 0)
+                if (letters['a'] > 0)
                 {
                     letters['a'] *= -1;
                     letters['e'] *= -1;

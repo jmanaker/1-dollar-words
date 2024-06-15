@@ -15,5 +15,10 @@ namespace _1._00_words
         {
             InitializeComponent();
         }
+
+        private void close(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

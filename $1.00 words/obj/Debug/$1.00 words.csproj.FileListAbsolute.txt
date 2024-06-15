@@ -1,0 +1,65 @@
+C:\Users\Jacob\AppData\Local\Temporary Projects\$1.00 words\bin\Debug\$1.00 words.exe
+C:\Users\Jacob\AppData\Local\Temporary Projects\$1.00 words\bin\Debug\$1.00 words.pdb
+C:\Users\Jacob\AppData\Local\Temporary Projects\$1.00 words\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jacob\AppData\Local\Temporary Projects\$1.00 words\obj\Debug\_1._00_words.WordForm.resources
+C:\Users\Jacob\AppData\Local\Temporary Projects\$1.00 words\obj\Debug\$1.00 words.csproj.GenerateResource.Cache
+C:\Users\Jacob\AppData\Local\Temporary Projects\$1.00 words\obj\Debug\$1.00 words.exe
+C:\Users\Jacob\AppData\Local\Temporary Projects\$1.00 words\obj\Debug\$1.00 words.pdb
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\$1.00 words.exe
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\$1.00 words.pdb
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\bin\Debug\$1.00 words.exe
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\bin\Debug\$1.00 words.pdb
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\_1._00_words.WordForm.resources
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\$1.00 words.csproj.GenerateResource.Cache
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\bin\Debug\$1.00 words.exe.manifest
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\bin\Debug\$1.00 words.application
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\$1.00 words.exe.manifest
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\$1.00 words.application
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Character.resources
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\_1._00_words.About.resources
+C:\Users\Jacob\Documents\C#\dollar words\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Properties.Resources.resources
+E:\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.exe
+E:\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.pdb
+E:\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.exe.manifest
+E:\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.application
+E:\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.exe
+E:\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.pdb
+E:\C#\$1.00 words\$1.00 words\obj\Debug\ResolveAssemblyReference.cache
+E:\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.About.resources
+E:\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Character.resources
+E:\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Properties.Resources.resources
+E:\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.WordForm.resources
+E:\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.csproj.GenerateResource.Cache
+E:\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.exe.manifest
+E:\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.application
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.exe
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.pdb
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.exe.manifest
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.application
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.exe
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.pdb
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.About.resources
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Character.resources
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Properties.Resources.resources
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.WordForm.resources
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.csproj.GenerateResource.Cache
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.exe.manifest
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.application
+C:\Users\Jacob\Documents\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Y.resources
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.exe
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.pdb
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.About.resources
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Character.resources
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Properties.Resources.resources
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.WordForm.resources
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\_1._00_words.Y.resources
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.csproj.GenerateResource.Cache
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.exe.manifest
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.application
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.exe
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\bin\Debug\$1.00 words.pdb
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.exe.manifest
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.application
+C:\Users\Jacob\Documents\Programming\C#\$1.00 words\$1.00 words\obj\Debug\$1.00 words.csprojResolveAssemblyReference.cache

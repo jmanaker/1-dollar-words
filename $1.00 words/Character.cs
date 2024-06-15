@@ -47,11 +47,11 @@ namespace _1._00_words
                     idRemove.Items.Add(idAdd.Text[0]);
                 }
             }
-            catch (FormatException error)
+            catch (FormatException)
             {
                 MessageBox.Show("Error: the value is not an integer.  ", "Typo");
             }
-            catch (InvalidOperationException error)
+            catch (InvalidOperationException)
             {
                 MessageBox.Show("Error: the \"character\" is not just one character.  ", "Typo");
             }
@@ -73,6 +73,11 @@ namespace _1._00_words
         private void exit(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void changeDefaultButton(object sender, EventArgs e)
+        {
+            this.AcceptButton = (sender != idRemove ? doAdd : doRemove);
         }
     }
 }
